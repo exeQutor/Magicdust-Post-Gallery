@@ -1,0 +1,15 @@
+.md-post-gallery__list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1rem;
+	list-style: none;
+}
+
+.md-post-gallery__link {
+	display: block;
+}
+
+.md-post-gallery__nav {
+	display: flex;
+	justify-content: space-around;
+}
