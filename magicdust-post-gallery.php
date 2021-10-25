@@ -13,6 +13,7 @@ if ( !class_exists( 'RationalOptionPages' ) ) {
 }
 $pages = array(
 	'mdpg-options'	=> array(
+		'parent_slug' => 'options-general.php',
 		'page_title'	=> __( 'Magicdust Post Gallery', 'magicdust' ),
 		'sections' => array(
 			'section-one' => array(
